@@ -1,6 +1,6 @@
 var container = document.getElementById('container')
 
-tglClass(1,0)
+tglClass(0,3)
 async function tglClass (min=0,seconds=1) {
     console.log(container);
     container.classList.add('active')
